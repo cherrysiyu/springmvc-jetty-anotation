@@ -1,0 +1,910 @@
+2015-09-05 20:41:23.923  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:41:23.938  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@76b33d0a + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:41:23.954  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@76b33d0a + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:41:23.969  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d=com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d}
+2015-09-05 20:41:23.969  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d]
+2015-09-05 20:41:23.969  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:41:23.969  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:41:23.969  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:41:24.047  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d=com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d}
+2015-09-05 20:41:24.047  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d]
+2015-09-05 20:41:24.047  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:41:24.047  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:41:24.047  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:41:25.061  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@76b33d0a
+2015-09-05 20:41:25.061  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:41:25.061  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@76b33d0a + qtp921745400{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d as filter
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d as filterMapping
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + dispatcherServlet as servlet
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c as handler
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:41:25.077  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d=com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d}
+2015-09-05 20:41:25.093  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d]
+2015-09-05 20:41:25.093  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:41:25.093  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:41:25.093  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:41:25.093  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:41:25.094  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:41:25.094  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:41:25.094  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:41:25.141  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.141  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1f57ea4a
+2015-09-05 20:41:25.422  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.422  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@41217e67
+2015-09-05 20:41:25.422  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:41:25.422  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:41:25.422  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:41:25.422  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:41:25.422  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@43be2d65
+2015-09-05 20:41:25.422  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:41:25.422  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.422  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@3b35b1f3
+2015-09-05 20:41:25.422  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:41:25.422  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d
+2015-09-05 20:41:25.422  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-7455d93d
+2015-09-05 20:41:25.422  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:41:25.422  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.422  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@51f21c50
+2015-09-05 20:41:25.422  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:41:25.422  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.422  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6e20f237
+2015-09-05 20:41:25.422  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.422  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@34fe315d
+2015-09-05 20:41:25.422  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:41:25.422  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:41:25.422  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:41:25.422  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:41:25.422  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.422  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1c5aebd9
+2015-09-05 20:41:25.422  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:41:25.422  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.422  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1532021a
+2015-09-05 20:41:25.422  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:41:25.438  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:41:25.438  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:41:25.438  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:41:25.438  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.438  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@62803d5
+2015-09-05 20:41:25.438  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:41:25.438  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.438  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@2d13981b
+2015-09-05 20:41:25.438  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:41:25.438  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:41:25.438  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:41:25.438  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:41:25.438  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.438  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@61672bbb
+2015-09-05 20:41:25.438  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:41:25.968  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.968  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@5d90b72c
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:41:25.968  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:41:25.968  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:41:25.968  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:41:25.968  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:41:25.968  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@47e9d9b1
+2015-09-05 20:41:25.968  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED dispatcherServlet
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@76b33d0a
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp921745400{8<=0<=0/254,-1}
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp921745400{8<=2<=8/254,0}
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2015-09-05 20:41:25.968  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@38650646
+2015-09-05 20:41:25.984  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@38650646
+2015-09-05 20:41:25.984  DEBUG org.eclipse.jetty.io.nio - Starting Thread[qtp921745400-12 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@69107c05
+2015-09-05 20:41:25.984  INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:41:25.984  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:41:25.984  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@76b33d0a
+2015-09-05 20:41:25.984  INFO  com.cherry.application.spring.config.SpingMvcJettyStart - 启动springmvc成功，端口:8080 contentPath:/
+2015-09-05 20:42:25.733  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:42:25.749  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:42:25.764  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:42:25.780  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:42:25.780  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:42:25.780  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:42:25.780  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:42:25.780  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:42:25.858  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:42:25.858  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:42:25.858  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:42:25.858  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:42:25.858  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:42:26.872  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:42:26.872  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:42:26.887  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + qtp921745400{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:42:26.887  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:42:26.941  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filter
+2015-09-05 20:42:26.942  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filterMapping
+2015-09-05 20:42:26.942  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + dispatcherServlet as servlet
+2015-09-05 20:42:26.942  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:42:26.943  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c as handler
+2015-09-05 20:42:26.943  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:42:26.943  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:42:26.943  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:42:26.944  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:42:26.944  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:42:26.944  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:42:26.944  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:42:26.944  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:42:26.944  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:42:26.944  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:42:26.991  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.007  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6ad3c65d
+2015-09-05 20:42:27.288  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.288  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@5a57e787
+2015-09-05 20:42:27.288  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:42:27.288  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:42:27.288  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:42:27.288  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:42:27.288  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@43be2d65
+2015-09-05 20:42:27.288  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:42:27.288  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.288  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@126d2380
+2015-09-05 20:42:27.288  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:42:27.288  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:42:27.288  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:42:27.288  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@e9ac0f5
+2015-09-05 20:42:27.303  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@51f21c50
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6e20f237
+2015-09-05 20:42:27.303  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:42:27.303  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@34fe315d
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1c5aebd9
+2015-09-05 20:42:27.303  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:42:27.303  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1532021a
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@62803d5
+2015-09-05 20:42:27.303  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:42:27.303  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:42:27.303  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.303  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@2d13981b
+2015-09-05 20:42:27.303  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:42:27.834  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.834  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@475a07bf
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:42:27.834  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:42:27.834  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:42:27.834  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:42:27.834  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:42:27.834  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@67b2b131
+2015-09-05 20:42:27.834  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED dispatcherServlet
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp921745400{8<=0<=0/254,-1}
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp921745400{8<=1<=8/254,0}
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:42:27.834  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+2015-09-05 20:42:27.849  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2015-09-05 20:42:27.849  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6239da8a
+2015-09-05 20:42:27.865  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6239da8a
+2015-09-05 20:42:27.865  INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:42:27.865  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:42:27.865  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:42:27.865  INFO  com.cherry.application.spring.config.SpingMvcJettyStart - 启动springmvc成功，端口:8080 contentPath:/
+2015-09-05 20:42:27.865  DEBUG org.eclipse.jetty.io.nio - Starting Thread[qtp921745400-12 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@6bf51e5c
+2015-09-05 20:45:37.219  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:45:37.266  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@4945f939 + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:45:37.298  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@4945f939 + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:45:37.329  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87=com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87}
+2015-09-05 20:45:37.329  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87]
+2015-09-05 20:45:37.329  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:45:37.329  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:45:37.329  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:45:37.517  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87=com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87}
+2015-09-05 20:45:37.517  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87]
+2015-09-05 20:45:37.517  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:45:37.517  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:45:37.517  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:45:38.531  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@4945f939
+2015-09-05 20:45:38.531  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:45:38.563  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@4945f939 + qtp259549756{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:45:38.563  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@f27461b + com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87 as filter
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@f27461b + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87 as filterMapping
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@f27461b + dispatcherServlet as servlet
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@f27461b + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@f27461b as handler
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@f27461b
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87=com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87}
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87]
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@f27461b
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@f27461b
+2015-09-05 20:45:38.610  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:45:38.610  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:45:38.720  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:38.720  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@37567e6c
+2015-09-05 20:45:39.359  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.359  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@54cee271
+2015-09-05 20:45:39.359  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:45:39.375  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:45:39.375  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:45:39.375  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:45:39.375  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@37b90b39
+2015-09-05 20:45:39.375  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:45:39.375  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.375  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@13ce64f6
+2015-09-05 20:45:39.375  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:45:39.375  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87
+2015-09-05 20:45:39.375  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-6bd38b87
+2015-09-05 20:45:39.375  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:45:39.391  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.391  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@12bc6007
+2015-09-05 20:45:39.391  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:45:39.391  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.391  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@d44752d
+2015-09-05 20:45:39.391  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.391  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@968e429
+2015-09-05 20:45:39.391  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:45:39.391  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:45:39.391  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:45:39.391  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:45:39.391  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.391  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@455b4492
+2015-09-05 20:45:39.391  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:45:39.391  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.391  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6af2f0d0
+2015-09-05 20:45:39.391  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:45:39.391  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:45:39.391  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:45:39.391  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:45:39.391  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.391  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@73a01e8a
+2015-09-05 20:45:39.406  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:45:39.406  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.406  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@15353154
+2015-09-05 20:45:39.406  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:45:39.406  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:45:39.406  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:45:39.406  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:45:39.406  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:39.406  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@57398cac
+2015-09-05 20:45:39.406  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:45:42.544  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:42.544  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@465f3bad
+2015-09-05 20:45:42.544  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:45:42.544  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:45:42.544  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:45:42.544  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:45:42.559  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:45:42.559  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1646fef3
+2015-09-05 20:45:42.559  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:45:42.559  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED dispatcherServlet
+2015-09-05 20:45:42.559  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:45:42.559  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@4945f939
+2015-09-05 20:45:42.559  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp259549756{8<=0<=0/254,-1}
+2015-09-05 20:45:42.559  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp259549756{8<=2<=8/254,0}
+2015-09-05 20:45:42.559  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:45:42.576  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+2015-09-05 20:45:42.576  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2015-09-05 20:45:42.576  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6a0239f6
+2015-09-05 20:45:42.592  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6a0239f6
+2015-09-05 20:45:42.592  INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:45:42.592  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:45:42.592  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@4945f939
+2015-09-05 20:45:42.592  INFO  com.cherry.application.spring.config.SpingMvcJettyStart - 启动springmvc成功，端口:8080 contentPath:/
+2015-09-05 20:45:42.592  DEBUG org.eclipse.jetty.io.nio - Starting Thread[qtp259549756-16 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@29747e0f
+2015-09-05 20:46:42.138  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:46:42.153  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:46:42.169  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:46:42.185  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:46:42.185  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:46:42.185  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:46:42.185  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:46:42.185  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:46:42.263  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:46:42.263  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:46:42.263  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:46:42.263  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:46:42.263  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:46:43.277  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:46:43.277  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:46:43.292  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + qtp1975391989{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:46:43.292  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:46:43.292  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@477a1767 + com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filter
+2015-09-05 20:46:43.340  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@477a1767 + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filterMapping
+2015-09-05 20:46:43.340  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@477a1767 + dispatcherServlet as servlet
+2015-09-05 20:46:43.340  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@477a1767 + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:46:43.340  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@477a1767 as handler
+2015-09-05 20:46:43.340  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@477a1767
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@477a1767
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@477a1767
+2015-09-05 20:46:43.341  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:46:43.341  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:46:43.374  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.374  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@75843a75
+2015-09-05 20:46:43.655  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.655  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@41217e67
+2015-09-05 20:46:43.655  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:46:43.670  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:46:43.670  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:46:43.670  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@43be2d65
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@3b35b1f3
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:46:43.670  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:46:43.670  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:46:43.670  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@51f21c50
+2015-09-05 20:46:43.670  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6e20f237
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@34fe315d
+2015-09-05 20:46:43.670  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:46:43.670  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1c5aebd9
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1532021a
+2015-09-05 20:46:43.670  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:46:43.670  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@62803d5
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@2d13981b
+2015-09-05 20:46:43.670  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:46:43.670  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:46:43.670  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:43.670  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@61672bbb
+2015-09-05 20:46:43.670  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:46:44.201  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:44.201  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@60407166
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:46:44.201  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:46:44.201  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:46:44.201  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:46:44.201  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:46:44.201  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@26d510e8
+2015-09-05 20:46:44.201  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED dispatcherServlet
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp1975391989{8<=0<=0/254,-1}
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp1975391989{8<=3<=8/254,0}
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:46:44.201  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+2015-09-05 20:46:44.216  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2015-09-05 20:46:44.216  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@75088a1b
+2015-09-05 20:46:44.232  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@75088a1b
+2015-09-05 20:46:44.232  INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:46:44.232  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:46:44.232  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:46:44.232  INFO  com.cherry.application.spring.config.SpingMvcJettyStart - 启动springmvc成功，端口:8080 contentPath:/
+2015-09-05 20:46:44.232  DEBUG org.eclipse.jetty.io.nio - Starting Thread[qtp1975391989-12 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@4df8b14
+2015-09-05 20:47:56.461  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:47:56.477  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:47:56.492  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:47:56.508  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:47:56.508  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:47:56.508  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:47:56.508  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:47:56.508  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:47:56.586  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:47:56.586  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:47:56.586  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:47:56.586  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:47:56.586  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:47:57.600  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:47:57.600  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:47:57.616  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + qtp921745400{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:47:57.616  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:47:57.633  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filter
+2015-09-05 20:47:57.633  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filterMapping
+2015-09-05 20:47:57.633  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + dispatcherServlet as servlet
+2015-09-05 20:47:57.633  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:47:57.634  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c as handler
+2015-09-05 20:47:57.634  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:47:57.634  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:47:57.634  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:47:57.634  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:47:57.634  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:47:57.634  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:47:57.635  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:47:57.635  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:47:57.635  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:47:57.635  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:47:57.666  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:57.682  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1f57ea4a
+2015-09-05 20:47:57.996  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:57.996  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@78dc9766
+2015-09-05 20:47:57.996  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:47:58.012  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:47:58.012  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:47:58.012  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@43be2d65
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@5d15126e
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:47:58.012  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:47:58.012  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:47:58.012  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1b192059
+2015-09-05 20:47:58.012  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@e9ac0f5
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@51f21c50
+2015-09-05 20:47:58.012  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:47:58.012  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6e20f237
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@34fe315d
+2015-09-05 20:47:58.012  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:47:58.012  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1c5aebd9
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1532021a
+2015-09-05 20:47:58.012  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:47:58.012  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:47:58.012  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.012  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@62803d5
+2015-09-05 20:47:58.012  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:47:58.558  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.558  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@4858cca9
+2015-09-05 20:47:58.558  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:47:58.558  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:47:58.558  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:47:58.558  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:47:58.558  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:47:58.558  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@3de4905a
+2015-09-05 20:47:58.558  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:47:58.558  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED dispatcherServlet
+2015-09-05 20:47:58.558  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:47:58.558  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:47:58.573  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp921745400{8<=0<=0/254,-1}
+2015-09-05 20:47:58.573  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp921745400{8<=1<=8/254,0}
+2015-09-05 20:47:58.573  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:47:58.573  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+2015-09-05 20:47:58.573  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2015-09-05 20:47:58.573  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@63fb050c
+2015-09-05 20:47:58.604  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@63fb050c
+2015-09-05 20:47:58.604  DEBUG org.eclipse.jetty.io.nio - Starting Thread[qtp921745400-12 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@14db38a4
+2015-09-05 20:47:58.604  INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:47:58.604  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:47:58.604  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:47:58.604  INFO  com.cherry.application.spring.config.SpingMvcJettyStart - 启动springmvc成功，端口:8080 contentPath:/
+2015-09-05 20:53:04.999  DEBUG org.eclipse.jetty.io.nio - created SCEP@1cad7d80{l(/127.0.0.1:49771)<->r(/127.0.0.1:8080),s=0,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@420a6d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2015-09-05 20:53:05.001  DEBUG org.eclipse.jetty.http.HttpParser - filled 0/0
+2015-09-05 20:53:05.001  DEBUG org.eclipse.jetty.io.nio - created SCEP@f6d64c5{l(/127.0.0.1:49772)<->r(/127.0.0.1:8080),s=0,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@56f2c96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2015-09-05 20:53:05.002  DEBUG org.eclipse.jetty.http.HttpParser - filled 0/0
+2015-09-05 20:53:05.034  DEBUG org.eclipse.jetty.http.HttpParser - filled 370/370
+2015-09-05 20:53:05.039  DEBUG org.eclipse.jetty.server.Server - REQUEST / on AsyncHttpConnection@420a6d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=23,c=0},r=1
+2015-09-05 20:53:05.040  DEBUG org.eclipse.jetty.server.handler.ContextHandler - scope null||/ @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:05.047  DEBUG org.eclipse.jetty.server.handler.ContextHandler - context=||/ @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:05.047  DEBUG org.eclipse.jetty.servlet.ServletHandler - servlet ||/ -> dispatcherServlet
+2015-09-05 20:53:05.048  DEBUG org.eclipse.jetty.servlet.ServletHandler - chain=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76->dispatcherServlet
+2015-09-05 20:53:05.058  DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:53:05.059  DEBUG org.eclipse.jetty.servlet.ServletHandler - call servlet dispatcherServlet
+2015-09-05 20:53:05.274  DEBUG org.eclipse.jetty.server.Server - RESPONSE /  404 handled=true
+2015-09-05 20:53:05.275  DEBUG org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1cad7d80{l(/127.0.0.1:49771)<->r(/127.0.0.1:8080),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@420a6d35,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=23,c=0},r=1}
+2015-09-05 20:53:05.278  DEBUG org.eclipse.jetty.http.HttpParser - filled 0/0
+2015-09-05 20:53:05.456  DEBUG org.eclipse.jetty.http.HttpParser - filled 321/321
+2015-09-05 20:53:05.457  DEBUG org.eclipse.jetty.server.Server - REQUEST /favicon.ico on AsyncHttpConnection@420a6d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=23,c=0},r=2
+2015-09-05 20:53:05.457  DEBUG org.eclipse.jetty.server.handler.ContextHandler - scope null||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:05.457  DEBUG org.eclipse.jetty.server.handler.ContextHandler - context=||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:05.457  DEBUG org.eclipse.jetty.servlet.ServletHandler - servlet ||/favicon.ico -> dispatcherServlet
+2015-09-05 20:53:05.457  DEBUG org.eclipse.jetty.servlet.ServletHandler - chain=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76->dispatcherServlet
+2015-09-05 20:53:05.457  DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:53:05.458  DEBUG org.eclipse.jetty.servlet.ServletHandler - call servlet dispatcherServlet
+2015-09-05 20:53:05.460  DEBUG org.eclipse.jetty.server.Server - RESPONSE /favicon.ico  404 handled=true
+2015-09-05 20:53:05.461  DEBUG org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1cad7d80{l(/127.0.0.1:49771)<->r(/127.0.0.1:8080),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@420a6d35,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=23,c=0},r=2}
+2015-09-05 20:53:05.461  DEBUG org.eclipse.jetty.http.HttpParser - filled 0/0
+2015-09-05 20:53:11.914  DEBUG org.eclipse.jetty.http.HttpParser - filled 376/376
+2015-09-05 20:53:11.915  DEBUG org.eclipse.jetty.server.Server - REQUEST /user/1 on AsyncHttpConnection@420a6d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=23,c=0},r=3
+2015-09-05 20:53:11.915  DEBUG org.eclipse.jetty.server.handler.ContextHandler - scope null||/user/1 @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:11.915  DEBUG org.eclipse.jetty.server.handler.ContextHandler - context=||/user/1 @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:11.916  DEBUG org.eclipse.jetty.servlet.ServletHandler - servlet ||/user/1 -> dispatcherServlet
+2015-09-05 20:53:11.916  DEBUG org.eclipse.jetty.servlet.ServletHandler - chain=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76->dispatcherServlet
+2015-09-05 20:53:11.916  DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:53:11.919  DEBUG org.eclipse.jetty.servlet.ServletHandler - call servlet dispatcherServlet
+2015-09-05 20:53:12.087  DEBUG org.eclipse.jetty.server.Server - RESPONSE /user/1  200 handled=true
+2015-09-05 20:53:12.089  DEBUG org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1cad7d80{l(/127.0.0.1:49771)<->r(/127.0.0.1:8080),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@420a6d35,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=23,c=0},r=3}
+2015-09-05 20:53:12.089  DEBUG org.eclipse.jetty.http.HttpParser - filled 0/0
+2015-09-05 20:53:12.124  DEBUG org.eclipse.jetty.http.HttpParser - filled 321/321
+2015-09-05 20:53:12.125  DEBUG org.eclipse.jetty.server.Server - REQUEST /favicon.ico on AsyncHttpConnection@420a6d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=23,c=0},r=4
+2015-09-05 20:53:12.125  DEBUG org.eclipse.jetty.server.handler.ContextHandler - scope null||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:12.125  DEBUG org.eclipse.jetty.server.handler.ContextHandler - context=||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:12.125  DEBUG org.eclipse.jetty.servlet.ServletHandler - servlet ||/favicon.ico -> dispatcherServlet
+2015-09-05 20:53:12.126  DEBUG org.eclipse.jetty.servlet.ServletHandler - chain=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76->dispatcherServlet
+2015-09-05 20:53:12.126  DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:53:12.126  DEBUG org.eclipse.jetty.servlet.ServletHandler - call servlet dispatcherServlet
+2015-09-05 20:53:12.127  DEBUG org.eclipse.jetty.server.Server - RESPONSE /favicon.ico  404 handled=true
+2015-09-05 20:53:12.129  DEBUG org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1cad7d80{l(/127.0.0.1:49771)<->r(/127.0.0.1:8080),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@420a6d35,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=23,c=0},r=4}
+2015-09-05 20:53:12.129  DEBUG org.eclipse.jetty.http.HttpParser - filled 0/0
+2015-09-05 20:53:16.159  DEBUG org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@f6d64c5{l(/127.0.0.1:49772)<->r(/127.0.0.1:8080),s=1,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@56f2c96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2015-09-05 20:53:16.159  DEBUG org.eclipse.jetty.http.HttpParser - filled -1/0
+2015-09-05 20:53:16.160  DEBUG org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@f6d64c5{l(/127.0.0.1:49772)<->r(/127.0.0.1:8080),s=1,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@56f2c96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+2015-09-05 20:53:16.161  DEBUG org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@f6d64c5{l(/127.0.0.1:49772)<->r(/127.0.0.1:8080),s=1,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@56f2c96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+2015-09-05 20:53:16.162  DEBUG org.eclipse.jetty.io.nio - destroyEndPoint SCEP@f6d64c5{l(null)<->r(/127.0.0.1:8080),s=1,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@56f2c96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+2015-09-05 20:53:16.163  DEBUG org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@56f2c96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+2015-09-05 20:53:36.014  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:53:36.033  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@4987b287 + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:53:36.046  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@4987b287 + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:53:36.063  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675=com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675}
+2015-09-05 20:53:36.065  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675]
+2015-09-05 20:53:36.065  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:53:36.065  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:53:36.065  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:53:36.143  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675=com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675}
+2015-09-05 20:53:36.143  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675]
+2015-09-05 20:53:36.143  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:53:36.144  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:53:36.144  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:53:37.147  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@4987b287
+2015-09-05 20:53:37.150  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:53:37.164  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@4987b287 + qtp598834505{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:53:37.165  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:37.180  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@694b081b + com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675 as filter
+2015-09-05 20:53:37.181  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@694b081b + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675 as filterMapping
+2015-09-05 20:53:37.181  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@694b081b + dispatcherServlet as servlet
+2015-09-05 20:53:37.181  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@694b081b + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:53:37.181  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@694b081b as handler
+2015-09-05 20:53:37.182  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@694b081b
+2015-09-05 20:53:37.182  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675=com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675}
+2015-09-05 20:53:37.182  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675]
+2015-09-05 20:53:37.182  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:53:37.182  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:53:37.183  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:53:37.183  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@694b081b
+2015-09-05 20:53:37.183  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@694b081b
+2015-09-05 20:53:37.183  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:53:37.184  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:53:37.242  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.247  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@3dca1588
+2015-09-05 20:53:37.545  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.545  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@185c2a25
+2015-09-05 20:53:37.546  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:53:37.550  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:53:37.550  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:53:37.551  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:53:37.551  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@37b90b39
+2015-09-05 20:53:37.551  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:53:37.551  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.552  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@11c0b8a0
+2015-09-05 20:53:37.552  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:53:37.553  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675
+2015-09-05 20:53:37.554  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-2a48f675
+2015-09-05 20:53:37.554  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:53:37.558  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.558  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@679b2faf
+2015-09-05 20:53:37.558  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:53:37.559  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.559  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@7d57bf4c
+2015-09-05 20:53:37.560  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.560  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@bd056de
+2015-09-05 20:53:37.560  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:53:37.560  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:53:37.560  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:53:37.561  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:53:37.561  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.561  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1af70ee1
+2015-09-05 20:53:37.561  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:53:37.561  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.562  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@51f1e39b
+2015-09-05 20:53:37.562  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:53:37.562  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:53:37.562  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:53:37.562  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:53:37.562  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.562  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@5f95ff24
+2015-09-05 20:53:37.563  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:53:37.563  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.563  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@70a1c582
+2015-09-05 20:53:37.564  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:53:37.564  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:53:37.564  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:53:37.564  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:53:37.564  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:53:37.564  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@cae1393
+2015-09-05 20:53:37.564  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:54:07.415  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:07.415  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@7ca53564
+2015-09-05 20:54:07.415  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:54:07.415  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:54:07.416  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:54:07.416  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:54:07.416  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:07.416  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@4254782a
+2015-09-05 20:54:07.416  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:54:07.417  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED dispatcherServlet
+2015-09-05 20:54:07.417  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:54:07.418  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@4987b287
+2015-09-05 20:54:07.418  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp598834505{8<=0<=0/254,-1}
+2015-09-05 20:54:07.424  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp598834505{8<=1<=8/254,0}
+2015-09-05 20:54:07.424  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:54:07.432  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+2015-09-05 20:54:07.435  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2015-09-05 20:54:07.436  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@42c9537b
+2015-09-05 20:54:07.457  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@42c9537b
+2015-09-05 20:54:07.458  INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:54:07.459  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:54:07.459  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@4987b287
+2015-09-05 20:54:07.459  INFO  com.cherry.application.spring.config.SpingMvcJettyStart - 启动springmvc成功，端口:8080 contentPath:/
+2015-09-05 20:54:07.459  DEBUG org.eclipse.jetty.io.nio - Starting Thread[qtp598834505-16 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@2e0c5575
+2015-09-05 20:54:46.534  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:54:46.551  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@28ae4646 + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:54:46.564  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@28ae4646 + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:54:46.582  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025=com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025}
+2015-09-05 20:54:46.584  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025]
+2015-09-05 20:54:46.585  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:54:46.585  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:54:46.585  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:54:46.663  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025=com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025}
+2015-09-05 20:54:46.664  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025]
+2015-09-05 20:54:46.664  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:54:46.664  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:54:46.664  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:54:47.665  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@28ae4646
+2015-09-05 20:54:47.667  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:54:47.686  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@28ae4646 + qtp1503155693{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:54:47.686  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:54:47.709  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@3d015a9e + com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025 as filter
+2015-09-05 20:54:47.710  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@3d015a9e + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025 as filterMapping
+2015-09-05 20:54:47.711  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@3d015a9e + dispatcherServlet as servlet
+2015-09-05 20:54:47.711  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@3d015a9e + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:54:47.712  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@3d015a9e as handler
+2015-09-05 20:54:47.712  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@3d015a9e
+2015-09-05 20:54:47.712  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025=com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025}
+2015-09-05 20:54:47.712  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025]
+2015-09-05 20:54:47.712  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:54:47.712  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:54:47.713  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:54:47.713  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@3d015a9e
+2015-09-05 20:54:47.713  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@3d015a9e
+2015-09-05 20:54:47.713  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:54:47.715  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:54:47.763  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:47.769  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1e4bb369
+2015-09-05 20:54:48.070  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.071  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@4ad2efa1
+2015-09-05 20:54:48.072  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:54:48.075  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:54:48.075  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:54:48.075  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:54:48.076  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@37b90b39
+2015-09-05 20:54:48.076  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:54:48.076  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.076  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@399197b
+2015-09-05 20:54:48.077  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:54:48.077  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025
+2015-09-05 20:54:48.078  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-50903025
+2015-09-05 20:54:48.079  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:54:48.082  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.082  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@7d57bf4c
+2015-09-05 20:54:48.082  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:54:48.083  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.083  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@bd056de
+2015-09-05 20:54:48.084  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.084  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1af70ee1
+2015-09-05 20:54:48.084  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:54:48.084  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:54:48.085  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:54:48.085  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:54:48.085  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.085  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@51f1e39b
+2015-09-05 20:54:48.085  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:54:48.085  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.086  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@5f95ff24
+2015-09-05 20:54:48.086  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:54:48.086  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:54:48.086  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:54:48.086  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:54:48.086  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.087  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@70a1c582
+2015-09-05 20:54:48.087  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:54:48.087  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.087  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@cae1393
+2015-09-05 20:54:48.087  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:54:48.087  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:54:48.088  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:54:48.088  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:54:48.088  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:54:48.088  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@78871e65
+2015-09-05 20:54:48.088  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:55:33.025  DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2015-09-05 20:55:33.043  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + SelectChannelConnector@0.0.0.0:8080 as connector
+2015-09-05 20:55:33.058  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + o.e.j.s.ServletContextHandler{/,null} as handler
+2015-09-05 20:55:33.073  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:55:33.076  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:55:33.076  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:55:33.076  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap=null
+2015-09-05 20:55:33.076  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={}
+2015-09-05 20:55:33.157  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:55:33.158  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:55:33.158  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:55:33.158  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:55:33.158  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:55:34.159  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:55:34.161  INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2015-09-05 20:55:34.175  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.server.Server@716c9867 + qtp921745400{8<=0<=0/254,-1} as threadpool
+2015-09-05 20:55:34.175  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:55:34.204  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filter
+2015-09-05 20:55:34.204  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76 as filterMapping
+2015-09-05 20:55:34.204  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + dispatcherServlet as servlet
+2015-09-05 20:55:34.205  DEBUG org.eclipse.jetty.util.component.Container - Container org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c + [/*]=>dispatcherServlet as servletMapping
+2015-09-05 20:55:34.205  DEBUG org.eclipse.jetty.util.component.Container - Container o.e.j.s.ServletContextHandler{/,null} + org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c as handler
+2015-09-05 20:55:34.205  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:55:34.205  DEBUG org.eclipse.jetty.servlet.ServletHandler - filterNameMap={com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76=com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76}
+2015-09-05 20:55:34.205  DEBUG org.eclipse.jetty.servlet.ServletHandler - pathFilters=[[/*]/[]==31=>com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76]
+2015-09-05 20:55:34.205  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletFilterMap={}
+2015-09-05 20:55:34.205  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletPathMap={/*=dispatcherServlet}
+2015-09-05 20:55:34.206  DEBUG org.eclipse.jetty.servlet.ServletHandler - servletNameMap={dispatcherServlet=dispatcherServlet}
+2015-09-05 20:55:34.206  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:55:34.206  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.servlet.ServletHandler@2a8ddc4c
+2015-09-05 20:55:34.206  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:55:34.207  INFO  / - Initializing Spring root WebApplicationContext
+2015-09-05 20:55:34.245  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.249  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6ad3c65d
+2015-09-05 20:55:34.546  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.547  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@5a57e787
+2015-09-05 20:55:34.547  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:55:34.550  DEBUG jndi - Adding binding with key=comp obj=Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+ for context=null as comp: javax.naming.Reference:Reference Class Name: javax.naming.Context
+Type: parser
+Content: org.eclipse.jetty.jndi.java.javaNameParser
+
+2015-09-05 20:55:34.550  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:55:34.551  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:55:34.551  DEBUG jndi - Made context comp for classloader: sun.misc.Launcher$AppClassLoader@43be2d65
+2015-09-05 20:55:34.551  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:55:34.551  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.551  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@126d2380
+2015-09-05 20:55:34.551  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:55:34.552  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:55:34.553  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED com.cherry.application.webcommon.SetCharacterEncodingFilter-30296f76
+2015-09-05 20:55:34.553  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting dispatcherServlet
+2015-09-05 20:55:34.556  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.556  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@e9ac0f5
+2015-09-05 20:55:34.556  INFO  / - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-09-05 20:55:34.557  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.558  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@51f21c50
+2015-09-05 20:55:34.558  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.558  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@6e20f237
+2015-09-05 20:55:34.558  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:55:34.559  DEBUG jndi - Looking up name="comp/env/spring.profiles.active"
+2015-09-05 20:55:34.559  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:55:34.559  DEBUG jndi - Looking up name="env/spring.profiles.active"
+2015-09-05 20:55:34.559  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.559  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@34fe315d
+2015-09-05 20:55:34.559  DEBUG jndi - Looking up name="spring.profiles.active"
+2015-09-05 20:55:34.559  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.560  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1c5aebd9
+2015-09-05 20:55:34.560  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:55:34.560  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:55:34.560  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:55:34.560  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:55:34.560  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.560  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@1532021a
+2015-09-05 20:55:34.560  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:55:34.561  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.561  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@62803d5
+2015-09-05 20:55:34.561  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:55:34.561  DEBUG jndi - Looking up name="comp/env/spring.profiles.default"
+2015-09-05 20:55:34.561  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:55:34.561  DEBUG jndi - Looking up name="env/spring.profiles.default"
+2015-09-05 20:55:34.561  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:34.562  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@2d13981b
+2015-09-05 20:55:34.562  DEBUG jndi - Looking up name="spring.profiles.default"
+2015-09-05 20:55:35.082  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:35.082  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@c4e21db
+2015-09-05 20:55:35.082  DEBUG org.eclipse.jetty.jndi.java.javaURLContextFactory - >>> new root context requested 
+2015-09-05 20:55:35.082  DEBUG jndi - Looking up name="comp/env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:55:35.083  DEBUG jndi - Trying thread context classloader
+2015-09-05 20:55:35.083  DEBUG jndi - Looking up name="env/spring.liveBeansView.mbeanDomain"
+2015-09-05 20:55:35.083  DEBUG jndi - InitialContextFactory.getInitialContext()
+2015-09-05 20:55:35.083  DEBUG jndi - Created initial context delegate for local namespace:org.eclipse.jetty.jndi.local.localContextRoot@5d90b72c
+2015-09-05 20:55:35.083  DEBUG jndi - Looking up name="spring.liveBeansView.mbeanDomain"
+2015-09-05 20:55:35.083  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED dispatcherServlet
+2015-09-05 20:55:35.084  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+2015-09-05 20:55:35.084  DEBUG org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:55:35.084  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp921745400{8<=0<=0/254,-1}
+2015-09-05 20:55:35.086  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp921745400{8<=3<=8/254,0}
+2015-09-05 20:55:35.086  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:55:35.092  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+2015-09-05 20:55:35.107  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2015-09-05 20:55:35.107  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@59566a6c
+2015-09-05 20:55:35.124  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@59566a6c
+2015-09-05 20:55:35.124  DEBUG org.eclipse.jetty.io.nio - Starting Thread[qtp921745400-12 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@303ec561
+2015-09-05 20:55:35.125  INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:55:35.125  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:8080
+2015-09-05 20:55:35.125  DEBUG org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@716c9867
+2015-09-05 20:55:35.125  INFO  com.cherry.application.spring.config.SpingMvcJettyStart - 启动springmvc成功，端口:8080 contentPath:/
